@@ -1,5 +1,5 @@
 # Shinobi Power FX
-
+![Naruto](assets/Naruto.png)
 A browser-based hand-tracking effects project powered by MediaPipe Hands.
 
 ## TERMUX -
