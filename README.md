@@ -14,12 +14,11 @@ cd Shinobi-power
 python -m http.server 8765
 ```
 # SEARCH THIS ADDRESS ON GOOGLE
-bash```
-http://localhost:8765
-```
+
+LINK - http://localhost:8765
 
 To get the latest changes from GitHub later, stop the server with `Ctrl + C`, then run:
-```bash
+bash```
 cd Shinobi-power
 git pull
 python -m http.server 8765
