@@ -17,29 +17,3 @@ python -m http.server 8765
 
 LINK - http://localhost:8765 (Aayush want you to click on this link 😁)
 
-To get the latest changes from GitHub later, stop the server with `Ctrl + C`, then run:
-bash```
-cd Naruto-power
-git pull
-python -m http.server 8765
-```
-
-## Project files
-
-- `index.html` — page structure and MediaPipe library imports
-- `style.css` — page layout and visual styling
-- `script.js` — camera, hand tracking, and effects logic
-- `assets/` — video assets used by the effects
-
-## Required video files
-
-Make sure these exact files are present in the `assets` folder:
-
-- `assets/naruto.mp4`
-- `assets/sasuke.mp4`
-
-## Notes
-
-- Camera access requires `localhost` or HTTPS. Use `http://localhost:8765` when running locally.
-- An internet connection is needed to load the MediaPipe libraries from jsDelivr.
-- Camera smoothness depends on your device and browser.
