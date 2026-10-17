@@ -2,49 +2,19 @@
 
 A browser-based hand-tracking effects project powered by MediaPipe Hands.
 
-## Run on Android (Termux)
+## TERMUX -
+# RUN IT ON LOCAL HOST USING TERMUX 
 
-You do not need to download the project files individually. Clone the GitHub repository and run it directly.
-
-### 1. Install requirements
 
 ```bash
 pkg update -y && pkg upgrade -y
 pkg install git python -y
-```
-
-### 2. Clone the repository
-
-```bash
 git clone https://github.com/zenaayush/Shinobi-power.git
-```
-
-### 3. Enter the project folder
-
-```bash
 cd Shinobi-power
-```
-
-### 4. Start the local server
-
-```bash
 python -m http.server 8765
 ```
 
-### 5. Open in your browser
-
-Visit:
-
-```text
-http://localhost:8765
-```
-
-Allow camera permission when your browser asks.
-
-## Update the project
-
 To get the latest changes from GitHub later, stop the server with `Ctrl + C`, then run:
-
 ```bash
 cd Shinobi-power
 git pull
