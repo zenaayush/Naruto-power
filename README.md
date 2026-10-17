@@ -1,30 +1,72 @@
-# Hand Effects
+# Shinobi Power FX
 
-A browser-based hand-tracking effects project using MediaPipe Hands.
+A browser-based hand-tracking effects project powered by MediaPipe Hands.
+
+## Run on Android (Termux)
+
+You do not need to download the project files individually. Clone the GitHub repository and run it directly.
+
+### 1. Install requirements
+
+```bash
+pkg update -y && pkg upgrade -y
+pkg install git python -y
+```
+
+### 2. Clone the repository
+
+```bash
+git clone https://github.com/zenaayush/Shinobi-power.git
+```
+
+### 3. Enter the project folder
+
+```bash
+cd Shinobi-power
+```
+
+### 4. Start the local server
+
+```bash
+python -m http.server 8765
+```
+
+### 5. Open in your browser
+
+Visit:
+
+```text
+http://localhost:8765
+```
+
+Allow camera permission when your browser asks.
+
+## Update the project
+
+To get the latest changes from GitHub later, stop the server with `Ctrl + C`, then run:
+
+```bash
+cd Shinobi-power
+git pull
+python -m http.server 8765
+```
 
 ## Project files
 
 - `index.html` — page structure and MediaPipe library imports
 - `style.css` — page layout and visual styling
 - `script.js` — camera, hand tracking, and effects logic
-- `assets/` — add your existing `naruto.mp4` and `sasuke.mp4` files here
+- `assets/` — video assets used by the effects
 
-## Run locally
+## Required video files
 
-Camera access generally requires HTTPS or localhost. From this folder, run:
-
-```bash
-python -m http.server 8765
-```
-
-Then open `http://localhost:8765`.
-
-Keep the video files at these exact paths:
+Make sure these exact files are present in the `assets` folder:
 
 - `assets/naruto.mp4`
 - `assets/sasuke.mp4`
 
 ## Notes
 
-The project loads MediaPipe libraries from jsDelivr, so an internet connection is needed.
-Camera smoothness depends on the device and browser.
+- Camera access requires `localhost` or HTTPS. Use `http://localhost:8765` when running locally.
+- An internet connection is needed to load the MediaPipe libraries from jsDelivr.
+- Camera smoothness depends on your device and browser.
