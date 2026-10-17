@@ -9,8 +9,8 @@ A browser-based hand-tracking effects project powered by MediaPipe Hands.
 ```bash
 pkg update -y && pkg upgrade -y
 pkg install git python -y
-git clone https://github.com/zenaayush/Shinobi-power.git
-cd Shinobi-power
+git clone https://github.com/zenaayush/Naruto-power.git
+cd Naruto-power
 python -m http.server 8765
 ```
 # SEARCH THIS ADDRESS ON GOOGLE
@@ -19,7 +19,7 @@ LINK - http://localhost:8765
 
 To get the latest changes from GitHub later, stop the server with `Ctrl + C`, then run:
 bash```
-cd Shinobi-power
+cd Naruto-power
 git pull
 python -m http.server 8765
 ```
