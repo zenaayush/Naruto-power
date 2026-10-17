@@ -1,0 +1,42 @@
+body { margin: 0; overflow: hidden; background-color: black; font-family: system-ui, sans-serif; }
+
+    #v_src, #out {
+      position: absolute; top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      object-fit: cover; transform: scaleX(-1);
+    }
+    #out { z-index: 2; pointer-events: none; }
+    .darkness {
+      position: absolute; top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: rgba(10, 5, 0, 0.3);
+      mix-blend-mode: multiply; pointer-events: none; z-index: 5;
+    }
+    .fx {
+      position: absolute; height: auto; top: 0; left: 0;
+      transform: translate(-50%, -50%);
+      pointer-events: none; display: none;
+      mix-blend-mode: screen; z-index: 20;
+    }
+    #n { width: min(1600px, 140vw); }
+    #s { width: min(2400px, 180vw); }
+
+    #status {
+      position: absolute; inset: 0; z-index: 50;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(0, 0, 0, 0.85); color: #f2f2f2;
+      text-align: center; padding: 24px; box-sizing: border-box;
+    }
+    #status.hidden { display: none; }
+    #status h1 { margin: 0 0 12px; font-size: 1.4rem; font-weight: 600; }
+    #status p { margin: 0; max-width: 420px; line-height: 1.45; opacity: 0.9; }
+    #status code {
+      display: inline-block; margin-top: 14px; padding: 8px 12px;
+      background: #1a1a1a; border-radius: 6px; font-size: 0.85rem;
+    }
+    #status button {
+      margin-top: 18px; padding: 10px 22px; border: 0; border-radius: 8px;
+      background: #00d4ff; color: #041018; font-weight: 600; font-size: 0.95rem;
+      cursor: pointer;
+    }
+    #status button:hover { filter: brightness(1.08); }
