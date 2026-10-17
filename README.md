@@ -3,8 +3,7 @@
 A browser-based hand-tracking effects project powered by MediaPipe Hands.
 
 # <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Termux.svg" width="28" height="28"> TERMUX ( ANDROID )
-
-# RUN IT ON LOCAL HOST USING TERMUX 
+## RUN IT ON LOCAL HOST USING TERMUX 
 
 
 ```bash
