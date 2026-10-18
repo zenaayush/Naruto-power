@@ -1,6 +1,7 @@
 # <p align="center">
   <img src="https://cdn3.emoji.gg/emojis/86445-naruto.png" width="150" alt="Naruto">
 </p> Naruto Power FX
+
 ![Naruto](assets/Naruto.png)
 
 Naruto Power FX is a fun, browser based hand - tracking visual effects project powered by MediaPipe Hands.
