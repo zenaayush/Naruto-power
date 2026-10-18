@@ -3,7 +3,7 @@
 
 Naruto Power FX is a fun, browser based hand - tracking visual effects project powered by MediaPipe Hands.
 
-# L I N K 
+# <img src="https://cdn3.emoji.gg/emojis/6219-weeb-run-naruto.gif" width="50"> L I V E
 https://zenaayush.github.io/Naruto-power/
 ## How to use
 • Click on Link - https://zenaayush.github.io/Naruto-power/
