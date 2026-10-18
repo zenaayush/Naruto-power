@@ -1,6 +1,4 @@
-# <p align="center">
-  <img src="https://cdn3.emoji.gg/emojis/86445-naruto.png" width="150" alt="Naruto">
-</p> Naruto Power FX
+# <img src="https://cdn3.emoji.gg/emojis/86445-naruto.png" width="40" alt="Naruto"> Naruto Power FX Naruto Power FX
 
 ![Naruto](assets/Naruto.png)
 
