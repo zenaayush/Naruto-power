@@ -7,8 +7,8 @@ Naruto Power FX is a fun, browser based hand - tracking visual effects project p
 # <img src="https://cdn3.emoji.gg/emojis/6219-weeb-run-naruto.gif" width="50"> L I V E
 https://zenaayush.github.io/Naruto-power/
 ## How to use
-<img src="https://cdn3.emoji.gg/emojis/28079-animated-arrow-orange.gif" width="35" alt="Arrow"> Naruto Power FX Click on Link - https://zenaayush.github.io/Naruto-power/
+<img src="https://cdn3.emoji.gg/emojis/32877-animated-arrow-bluelite.gif" width="35" alt="Blue Arrow"> Click on Link - https://zenaayush.github.io/Naruto-power/
 
-<img src="https://cdn3.emoji.gg/emojis/28079-animated-arrow-orange.gif" width="35" alt="Arrow"> Naruto Power FX Allow camera access.
+<img src="https://cdn3.emoji.gg/emojis/32877-animated-arrow-bluelite.gif" width="35" alt="Blue Arrow"> Allow camera access.
 
-<img src="https://cdn3.emoji.gg/emojis/28079-animated-arrow-orange.gif" width="35" alt="Arrow"> Naruto Power FX Show your hand in front of the camera.
+<img src="https://cdn3.emoji.gg/emojis/32877-animated-arrow-bluelite.gif" width="35" alt="Blue Arrow"> Show your hand in front of the camera.
